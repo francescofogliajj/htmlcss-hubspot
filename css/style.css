@@ -1,3 +1,4 @@
+/* Istruzioni generali */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,77 +6,125 @@
   font-family: 'Nunito', sans-serif;
 }
 
+.container-70 {
+  height: 100%;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* /Istruzioni generali */
+
+/* Header */
 .header-top {
-  height: 100px;
+  height: 80px;
   width: 100vw;
-  background-color: lightgrey;
-  border-bottom: 1px solid black;
+  background-color: #F5F8FA;
+  border-bottom: 1px solid #425B76;
 }
 
-.header-top-1 {
+/* header-top-left */
+.header-top-left {
   height: 100%;
   width: 50%;
   float: left;
 }
-
-.menu-1 {
+.list-left {
+  height: 100%;
+  line-height: 80px;
   list-style: none;
-  height: 100px;
-  line-height: 100px;
-  text-align: center;
 }
-.menu-1 > li {
+.list-left li {
   display: inline-block;
   height: 100%;
 }
+.list-left a {
+  text-decoration: none;
+  color: #425B76;
+}
+#language {
+  padding-right: 10px;
+  border-right: 1px solid #425B76;
+}
+#contact-us {
+  padding-left: 10px;
+}
+/* /header-top-left */
 
-.header-top-2 {
+/* header-top-right */
+.header-top-right {
   height: 100%;
   width: 50%;
   float: left;
 }
-
-.menu-2 {
+.list-right {
+  height: 100%;
+  line-height: 80px;
   list-style: none;
-  height: 100px;
-  line-height: 100px;
-  text-align: center;
+  text-align: right;
 }
-.menu-2 > li {
+.list-right li {
   display: inline-block;
   height: 100%;
 }
+.list-right i {
+  cursor: pointer;
+  color: #2DB4C9;
+}
+.list-right a {
+  text-decoration: none;
+  border: 1px solid #FF7A59;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+  color: #425B76;
+}
+#log-in {
+  color: #FF7A59;
+  background-color: white;
+}
+#get-hubspot-free {
+  color: white;
+  background-color: #FF7A59;
+}
+/* /header-top-right */
 
 .header-bottom {
-  height: 100px;
+  height: 80px;
   width: 100vw;
-  background-color: lightgrey;
+  background-color: white;
 }
 
-.header-bottom-1 {
+.header-bottom-left {
   height: 100%;
   width: 50%;
   float: left;
-  text-align: center;
-  line-height: 100px;
+  line-height: 80px;
 }
 
-.header-bottom-2 {
+/* header-bottom-right */
+.header-bottom-right {
   height: 100%;
   width: 50%;
   float: left;
 }
-
-.menu-3 {
+.menu {
   list-style: none;
-  height: 100px;
-  line-height: 100px;
-  text-align: center;
+  height: 100%;
+  line-height: 80px;
+  text-align: right;
 }
-.menu-3 > li {
+.menu li {
   display: inline-block;
   height: 100%;
+  margin-left: 10px;
 }
+/* header-bottom-right */
+/* Header */
 
 .section-1 {
   height: 695px;
