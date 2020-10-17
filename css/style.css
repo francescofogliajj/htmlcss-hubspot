@@ -25,6 +25,10 @@
   width: 100vw;
   background-color: #F5F8FA;
   border-bottom: 1px solid #425B76;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
 }
 
 /* header-top-left */
@@ -45,6 +49,9 @@
 .list-left a {
   text-decoration: none;
   color: #425B76;
+}
+.list-left a:hover {
+  text-decoration: underline;
 }
 #language {
   padding-right: 10px;
@@ -81,7 +88,6 @@
   padding: 10px;
   border-radius: 5px;
   margin-left: 10px;
-  color: #425B76;
 }
 #log-in {
   color: #FF7A59;
@@ -91,12 +97,19 @@
   color: white;
   background-color: #FF7A59;
 }
+.list-right li:hover #log-in {
+  background-color: #FFF1EE;
+}
+.list-right li:hover #get-hubspot-free {
+  background-color: #FFBCAC;
+}
 /* /header-top-right */
 
 .header-bottom {
   height: 80px;
   width: 100vw;
   background-color: white;
+  margin-top: 80px;
 }
 
 .header-bottom-left {
@@ -122,9 +135,18 @@
   display: inline-block;
   height: 100%;
   margin-left: 10px;
+  cursor: pointer;
+  color: #425B76;
 }
-/* header-bottom-right */
-/* Header */
+.menu a {
+  text-decoration: none;
+  color: #425B76;
+}
+.menu a:hover {
+  text-decoration: underline;
+}
+/* /header-bottom-right */
+/* /Header */
 
 .section-1 {
   height: 695px;
