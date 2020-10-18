@@ -398,11 +398,12 @@
   height: 30px;
 }
 
-.section-3-bottom h2 {
-  padding: 10px;
+[class^=section-3-bottom] h2 {
+  font-size: 40px;
 }
-.section-3-bottom p {
-  padding: 10px;
+[class^=section-3-bottom] i {
+  font-size: 15px;
+  vertical-align: middle;
 }
 /* /section-3-bottom */
 /* /Section 3 */
