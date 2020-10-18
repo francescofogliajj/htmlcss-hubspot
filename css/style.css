@@ -37,6 +37,7 @@
   width: 50%;
   float: left;
 }
+
 .list-left {
   height: 100%;
   line-height: 80px;
@@ -53,6 +54,7 @@
 .list-left a:hover {
   text-decoration: underline;
 }
+
 #language {
   padding-right: 10px;
   border-right: 1px solid #33475B;
@@ -68,6 +70,7 @@
   width: 50%;
   float: left;
 }
+
 .list-right {
   height: 100%;
   line-height: 80px;
@@ -88,6 +91,7 @@
   border-radius: 5px;
   margin-left: 10px;
 }
+
 #log-in {
   color: #FF7A59;
   background-color: white;
@@ -125,24 +129,25 @@
   width: 50%;
   float: left;
 }
-.menu {
+
+#menu {
   list-style: none;
   height: 100%;
   line-height: 80px;
   text-align: right;
 }
-.menu li {
+#menu li {
   display: inline-block;
   height: 100%;
   margin-left: 10px;
   cursor: pointer;
   color: #33475B;
 }
-.menu a {
+#menu a {
   text-decoration: none;
   color: #33475B;
 }
-.menu a:hover {
+#menu a:hover {
   text-decoration: underline;
 }
 /* /header-bottom-right */
@@ -194,6 +199,7 @@
 .section-2-top {
   text-align: center;
 }
+
 .section-2-top img {
   height: 150px;
   margin-top: 60px;
@@ -219,6 +225,7 @@
   padding: 40px;
   float: left;
 }
+
 .section-2-center-left img {
   height: 100px;
   margin-bottom: 30px;
@@ -240,6 +247,7 @@
   padding: 40px;
   float: left;
 }
+
 .section-2-center-right h2 {
   margin-bottom: 30px;
 }
@@ -293,44 +301,38 @@
   float: left;
 }
 
-.section-2-bottom-left img, .section-2-bottom-center img, .section-2-bottom-right img {
+.section-2-bottom img {
   height: 100px;
   margin-top: 20px;
 }
-
-.section-2-bottom-left h2, .section-2-bottom-center h2, .section-2-bottom-right h2 {
+.section-2-bottom h2 {
   margin-top: 40px;
 }
-
-.section-2-bottom-left p, .section-2-bottom-center p, .section-2-bottom-right p {
+.section-2-bottom p {
   margin-top: 40px;
   margin-bottom: 40px;
 }
-
-.section-2-bottom-left h3, .section-2-bottom-center h3, .section-2-bottom-right h3 {
+.section-2-bottom h3 {
   text-transform: uppercase;
   margin-top: 30px;
   margin-bottom: 30px;
 }
-
-.section-2-bottom-left ul, .section-2-bottom-center ul, .section-2-bottom-right ul {
+.section-2-bottom ul {
   list-style: none;
   text-align: left;
   margin-bottom: 60px;
 }
-
-.section-2-bottom-left i, .section-2-bottom-center i, .section-2-bottom-right i {
+.section-2-bottom i {
   color: #FF7A59;
 }
-
-.section-2-bottom-left a, .section-2-bottom-center a, .section-2-bottom-right a {
+.section-2-bottom a {
   text-decoration: none;
   padding: 10px 20px;
   border-radius: 5px;
   background-color: #FF7A59;
   color: white;
 }
-.section-2-bottom-left a:hover, .section-2-bottom-center a:hover, .section-2-bottom-right a:hover {
+.section-2-bottom a:hover {
   background-color: #FFBCAC;
 }
 /* /section-2-bottom */
@@ -383,28 +385,7 @@
   height: 30px;
 }
 
-.section-3-bottom-1 h2, .section-3-bottom-1 p {
-  padding: 10px;
-}
-.section-3-bottom-2 h2, .section-3-bottom-2 p {
-  padding: 10px;
-}
-.section-3-bottom-3 h2, .section-3-bottom-3 p {
-  padding: 10px;
-}
-.section-3-bottom-4 h2, .section-3-bottom-4 p {
-  padding: 10px;
-}
-.section-3-bottom-5 h2, .section-3-bottom-5 p {
-  padding: 10px;
-}
-.section-3-bottom-6 h2, .section-3-bottom-6 p {
-  padding: 10px;
-}
-.section-3-bottom-7 h2, .section-3-bottom-7 p {
-  padding: 10px;
-}
-.section-3-bottom-8 h2, .section-3-bottom-8 p {
+.section-3-bottom h2, .section-3-bottom p {
   padding: 10px;
 }
 /* /section-3-bottom */
@@ -434,6 +415,7 @@
   padding: 30px;
   float: left;
 }
+
 .section-4-top-right img {
   height: 25px;
   display: inline-block;
@@ -445,10 +427,8 @@
   width: 40%;
   float: left;
 }
-.section-4-bottom-left h2 {
-  margin: 30px 0;
-}
-.section-4-bottom-left p {
+
+.section-4-bottom-left h2, .section-4-bottom-left p {
   margin: 30px 0;
 }
 .section-4-bottom-left a {
@@ -468,6 +448,7 @@
   text-align: right;
   float: left;
 }
+
 .section-4-bottom-right img {
   height: 300px;
 }
@@ -479,6 +460,7 @@
   background-color: #2D3E50;
   color: white;
 }
+
 .footer ul {
   list-style: none;
   color: #EAF0F6;
@@ -492,7 +474,7 @@
   color: #7FD1DE;
 }
 
-.footer-top-1, .footer-top-2, .footer-top-3, .footer-top-4 {
+[class^=footer-top] {
   width: 25%;
   margin-top: 40px;
   line-height: 30px;
@@ -509,6 +491,7 @@
 #contact-support:hover {
   background-color: #EAF0F6;
 }
+
 #footer-icon {
   text-decoration: none;
   margin-right: 20px;
@@ -523,6 +506,7 @@
   text-align: center;
   border-bottom: 1px solid white;
 }
+
 .footer-bottom-2-left {
   width: 50%;
   margin-top: 20px;
@@ -535,7 +519,6 @@
   text-align: right;
   float: left;
 }
-
 .footer-bottom-2-right a:last-child {
   margin-left: 20px;
 }
