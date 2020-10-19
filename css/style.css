@@ -390,7 +390,7 @@
 .section-3-bottom-8 {
   width: 25%;
   padding: 20px;
-  padding-bottom: 60px;
+  margin-bottom: 60px;
   float: left;
 }
 
@@ -416,7 +416,7 @@
 }
 
 .section-4-top-left {
-  width: 39%;
+  width: 39.5%;
   padding-top: 40px;
   padding-left: 60px;
   display: inline-block;
@@ -428,7 +428,7 @@
 }
 
 .section-4-bottom-left {
-  width: 39%;
+  width: 39.5%;
   padding-top: 50px;
   display: inline-block;
 }
@@ -441,6 +441,7 @@
 
 .section-4-top-left h2 {
   font-size: 40px;
+  margin-bottom: 20px;
 }
 .section-4-top-left p {
   line-height: 30px;
@@ -448,7 +449,7 @@
 
 .section-4-top-right img {
   height: 25px;
-  margin: 10px;
+  margin: 15px;
   display: inline-block;
 }
 
@@ -499,8 +500,11 @@
 [class^=footer-top] {
   width: 25%;
   margin-top: 40px;
-  line-height: 30px;
+  line-height: 40px;
   float: left;
+}
+.footer-top-4 {
+  margin-bottom: 40px;
 }
 
 #contact-support {
@@ -528,16 +532,22 @@
   text-align: center;
   border-bottom: 1px solid white;
 }
+.footer-bottom-1 h4 {
+  margin-bottom: 10px;
+}
+.footer-bottom-1 a {
+  margin: 0 10px;
+}
 
 .footer-bottom-2-left {
   width: 50%;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   float: left;
 }
 .footer-bottom-2-right {
   width: 50%;
-  margin-top: 20px;
+  margin-top: 40px;
   text-align: right;
   float: left;
 }
