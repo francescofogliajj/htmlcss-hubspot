@@ -521,13 +521,9 @@
   background-color: #EAF0F6;
 }
 
-#footer-icon {
-  text-decoration: none;
+.footer-top-4 > ul > li >ul >li {
+  display: inline-block;
   margin-right: 20px;
-  color: #EAF0F6;
-}
-#footer-icon:hover {
-  color: #7FD1DE;
 }
 
 .footer-bottom-1 {
