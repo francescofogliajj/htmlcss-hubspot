@@ -267,10 +267,9 @@
   display: inline-block;
   text-transform: uppercase;
 }
-.h3 {
+.section-2-center-right hr {
   width: 400px;
   display: inline-block;
-  border-bottom: 1px solid black;
   vertical-align: super;
   margin: 0 40px;
 }
