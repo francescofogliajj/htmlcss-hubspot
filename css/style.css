@@ -501,6 +501,7 @@
   color: #7FD1DE;
 }
 
+/* footer-top */
 [class^=footer-top] {
   width: 25%;
   margin-top: 40px;
@@ -526,7 +527,9 @@
   display: inline-block;
   margin-right: 20px;
 }
+/* /footer-top */
 
+/* footer-bottom */
 .footer-bottom-1 {
   width: 100%;
   text-align: center;
@@ -557,4 +560,5 @@
 .footer-bottom-2-right li:last-child {
   margin-left: 20px;
 }
+/* /footer-bottom */
 /* /Footer */
