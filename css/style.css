@@ -17,6 +17,11 @@
   display: table;
   clear: both;
 }
+
+hr {
+  border: 1px solid lightgrey;
+  background-color: lightgrey;
+}
 /* /Istruzioni generali */
 
 /* Header */
